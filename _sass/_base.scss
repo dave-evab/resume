@@ -7,7 +7,7 @@
 }
 
 html {
-  background: $white;
+  background: $blue;
 }
 
 body{
@@ -35,12 +35,12 @@ body{
 .group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
 
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
+    background: rgba(230,230,230,.8);
+    color: rgba(51,51,51,1);
     text-shadow: none;
 }
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
+    background: rgba(230,230,230,.8);
+    color: rgba(51,51,51,1);
     text-shadow: none;
 }

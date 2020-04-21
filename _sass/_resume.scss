@@ -98,7 +98,7 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: #678;
       @include transition(all .2s ease);
     }
   }
@@ -110,7 +110,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: #9abcde;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -123,7 +123,7 @@
   @include transition(all .2s ease);
 
   &:hover {
-    background-color: #333;
+    background-color: #678;
     color: #fff;
   }
 
