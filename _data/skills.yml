@@ -1,6 +1,17 @@
 # Skills
 - skill: Interpersonal Communication 
-  description: David has been on a team for over a year that has seen constant personnel changes. This has made him comfortable with meeting and interacting with unfamiliar faces. He has also acted as a mentor for new associates at the company.
+  description: >
+    David has been on a team for over a year that has gone through many transitional
+    phases. Many of these phases required interactions with unfamiliar teams that were
+    crucial. He has also acted as a mentor for new associates at the company.
 
 - skill: Technologically Adept
-  description: <p>For many, engineering is a job. For David, it's a hobby.</p><p>From a young age he has been drawn to technology. At 10 he was playing MMORPGs on a dial-up connection. At 13 he attempted his first foray into programming with C++. Around that time, he took an interest in game development and made a few games for friends in ActionScript 3. In highschool he applied that knowledge and went to state and national competitions. He enjoyed the knowledge that college provided him so much that he graduated with the highest honors in three and a half years.</p><p>Now, David is living the dream and getting paid to do what he loves.</p>
+  description: >
+    <p>For many, engineering is a job. For David, it's a hobby.</p>
+    <p>From a young age he has been drawn to technology. At 10 he was playing MMORPGs
+    on a dial-up connection. At 13 he attempted his first foray into programming with
+    C++. Around that time, he took an interest in game development and made a few games
+    for friends in ActionScript 3. In highschool he applied that knowledge and went
+    to state and national competitions. He enjoyed the knowledge that college provided
+    him so much that he graduated with the highest honors in three and a half years.</p>
+    <p>Now, David is living the dream and getting paid to do what he loves.</p>

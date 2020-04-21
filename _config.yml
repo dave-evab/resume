@@ -23,7 +23,7 @@ resume_contact_address:         "--"
 resume_header_contact_info:     "&mdash; dvdjwllms@gmail.com &mdash;"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>David is currently employed as a full stack developer at Cerner, consuming technologies in the React on Rails environment. This includes daily utilization of tools and services including AWS (RDS, ALB, etc...), Docker, Spinnaker, New Relic, and Splunk.</p>"
+resume_header_intro: "<p>David is currently employed as a full stack developer at Cerner. His team utilizes Ruby on Rails with a React front-end. Outside of these stacks he works with many technologies, including daily utilization of tools and services including AWS (RDS, ALB, etc...), Docker, Spinnaker, New Relic, and Splunk.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

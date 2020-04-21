@@ -3,9 +3,68 @@
 - company: Cerner
   position: Software Engineer
   duration: Feb, 2019 &mdash; Present
-  summary: <p>This was David's first job as an engineer. He was placed onto a core services and tooling team. This meant that development could happen much more quickly, but also that when standards were changed his team had to be among the first to adapt. When he first joined the team it contained several members that had been at the company for at least 6 years (some nearly twice that).</p><p>However, over the course of 6 months all of those team members left the company.  While David got great initial training, this gap in product knowledge put that training to the test. He is now the engineer that has been on the team the longest, and is looked to as a resource for the products and services which the team owns.</p><p>Some of the things David has accomplished at Cerner include:<ul class="resume-item-list"><li>Interacting with consumers of the core products<ul><li>Knowledge transfers</li><li>Contributions to their codebases</li></ul></li><br /><li>Acting as the Operations Manager<ul><li>Utilized Spinnaker to deploy code to production</li><li>Conducted weekly operational reviews</li><li>Consumed Splunk and New Relic to debug and gather information</li><li>Monitored support channels to assist consumers</li></ul></li><br /><li>Acting as the engineer with the most product knowledge<ul><li>Taught new members of the team about process and said products</li><li>Got new managers caught up to speed on the state of owned products</li><li>Discussed future designs with executive engineers</li></ul></li><br /><li>Operating on the bleeding edge<ul><li>Got products compatible with AWS partnership as process was being defined</li><li>Contributed as the first team to move to distroless base images</li></ul></li><br /><li>Acting as a mentor<ul><li>Aided his Project Manager in his personal coding bootcamp</li><li>Officially for software engineers new to Cerner</li></ul></li></ul></p>
+  summary: >
+    <p>This was David's first job as an engineer. He was placed onto a core services and
+    tooling team. This meant that development could happen much more quickly, but also
+    that when standards were changed his team had to be among the first to adapt.</p>
+    <p>While David got great initial training, the frequently changing environment put
+    that training to the test. He is now the engineer that is looked to as a resource
+    for the products and services which the team owns.</p>
+    <p>Some of the things David has accomplished at Cerner include:
+      <ul class="resume-item-list">
+        <li>Interacting with consumers of the core products
+          <ul>
+            <li>Knowledge transfers</li>
+            <li>Contributions to their codebases</li>
+          </ul>
+        </li>
+        <br />
+        <li>Acting as the Operations Manager
+          <ul>
+            <li>Utilized Spinnaker to deploy code to production</li>
+            <li>Conducted weekly operational reviews</li>
+            <li>Consumed Splunk and New Relic to debug and gather information</li>
+            <li>Monitored support channels to assist consumers</li>
+          </ul>
+        </li>
+        <br />
+        <li>Acting as the engineer with the most product knowledge
+          <ul>
+            <li>Taught new members of the team about process and said products</li>
+            <li>Got new managers caught up to speed on the state of owned products</li>
+            <li>Discussed future designs with executive engineers</li>
+          </ul>
+        </li>
+        <br />
+        <li>Operating on the bleeding edge
+          <ul>
+            <li>Got products compatible with AWS partnership as process was being defined</li>
+            <li>Contributed as the first team to move to distroless base images</li>
+          </ul>
+        </li>
+        <br />
+        <li>Acting as a mentor
+          <ul>
+            <li>Aided his Project Manager in his personal coding bootcamp</li>
+            <li>Officially for software engineers new to Cerner</li>
+          </ul>
+        </li>
+      </ul>
+    </p>
 
 - company: Wilson Logistics
   position: IT Intern
   duration:  Mar, 2017 &mdash; Aug, 2017&semi; Apr, 2018 &mdash; Aug, 2018
-  summary: Assisted in day to day support operations with the occasional programming project.<ul class="resume-item-list"><li>Designed and implemented a client in C# which consumed a REST API to manage remote door security<ul><li>The first (and only) time working in C#</li></ul></li><br /><li>Wrote a powershell script to automatically map specific drives for particular active directory roles</li><br /><li>Interfaced with coworkers to provide assistance</li></ul>
+  summary: >
+    Assisted in day to day support operations with the occasional programming project.
+    <ul class="resume-item-list">
+      <li>Designed and implemented a client in C# which consumed a REST API to manage remote door security
+        <ul>
+          <li>The first (and only) time working in C#</li>
+        </ul>
+      </li>
+      <br />
+      <li>Wrote a powershell script to automatically map specific drives for particular active directory roles</li>
+      <br />
+      <li>Interfaced with coworkers to provide assistance</li>
+    </ul>
