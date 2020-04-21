@@ -20,8 +20,8 @@ resume_contact_email:           "dvdjwllms@gmail.com"
 resume_contact_telephone:       "(417) 772-4628"
 resume_contact_address:         "--"
 
-resume_header_contact_info:     "-- • (417) 772-4628 • dvdjwllms@gmail.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "&mdash; dvdjwllms@gmail.com &mdash;"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>David is currently employed as a full stack developer at Cerner, consuming technologies in the React on Rails environment. This includes daily utilization of tools and services including AWS (RDS, ALB, etc...), Docker, Spinnaker, New Relic, and Splunk.</p>"
 
@@ -29,7 +29,7 @@ resume_header_intro: "<p>David is currently employed as a full stack developer a
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
