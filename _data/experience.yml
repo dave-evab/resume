@@ -8,4 +8,4 @@
 - company: Wilson Logistics
   position: IT Intern
   duration:  Mar, 2017 &mdash; Aug, 2017&semi; Apr, 2018 &mdash; Aug, 2018
-  summary: Assisted in day to day support operations with the occasional programming project.<ul class="resume-item-list"><li>Designed and implemented a client in C# which consumed a REST API to manage remote door security<ul><li>The first (and only) time working in C#</li></ul></li><li>Wrote a powershell script to automatically map specific drives for particular active directory roles</li><li>Interfaced with coworkers to provide assistance</li></ul>
+  summary: Assisted in day to day support operations with the occasional programming project.<ul class="resume-item-list"><li>Designed and implemented a client in C# which consumed a REST API to manage remote door security<ul><li>The first (and only) time working in C#</li></ul></li><br /><li>Wrote a powershell script to automatically map specific drives for particular active directory roles</li><br /><li>Interfaced with coworkers to provide assistance</li></ul>
