@@ -8,18 +8,18 @@
     tooling team. This meant that development could happen much more quickly, but also
     that when standards were changed his team had to be among the first to adapt.</p>
     <p>While David got great initial training, the frequently changing environment put
-    that training to the test. He is now the engineer that is looked to as a resource
-    for the products and services which the team owns.</p>
+    that training to the test. As a result, he is the engineer that people come to when searching for
+    a resource on the products and services of the team.</p>
     <p>Some of the things David has accomplished at Cerner include:
       <ul class="resume-item-list">
-        <li>Interacting with consumers of the core products
+        <li><strong>Interacting with consumers of the core products</strong>
           <ul>
             <li>Knowledge transfers</li>
             <li>Contributions to their codebases</li>
           </ul>
         </li>
         <br />
-        <li>Acting as the Operations Manager
+        <li><strong>Acting as the Operations Manager</strong>
           <ul>
             <li>Utilized Spinnaker to deploy code to production</li>
             <li>Conducted weekly operational reviews</li>
@@ -28,7 +28,7 @@
           </ul>
         </li>
         <br />
-        <li>Acting as the engineer with the most product knowledge
+        <li><strong>Acting as the engineer with the most product knowledge</strong>
           <ul>
             <li>Taught new members of the team about process and said products</li>
             <li>Got new managers caught up to speed on the state of owned products</li>
@@ -36,14 +36,14 @@
           </ul>
         </li>
         <br />
-        <li>Operating on the bleeding edge
+        <li><strong>Operating on the bleeding edge</strong>
           <ul>
             <li>Got products compatible with AWS partnership as process was being defined</li>
             <li>Contributed as the first team to move to distroless base images</li>
           </ul>
         </li>
         <br />
-        <li>Acting as a mentor
+        <li><strong>Acting as a mentor</strong>
           <ul>
             <li>Aided his Project Manager in his personal coding bootcamp</li>
             <li>Officially for software engineers new to Cerner</li>
