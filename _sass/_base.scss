@@ -7,7 +7,7 @@
 }
 
 html {
-  background: $blue;
+  background: #123;
 }
 
 body{
@@ -21,9 +21,11 @@ body{
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
+  background-color: $blue;
+  border-radius: 15px;
   max-width: 728px;
   padding: 0 24px;
-  margin: 0 auto;
+  margin: 15px auto;
   zoom: 1;
 }
 

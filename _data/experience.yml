@@ -15,16 +15,30 @@
         <li><strong>Interacting with consumers of the core products</strong>
           <ul>
             <li>Knowledge transfers</li>
-            <li>Contributions to their codebases</li>
+            <li>Identified and provided solutions for defects
+              <ul>
+                <li>React routing issues</li>
+                <li>React rendering race conditions</li>
+              </ul>
+            </li>
           </ul>
         </li>
         <br />
         <li><strong>Acting as the Operations Manager</strong>
           <ul>
-            <li>Utilized Spinnaker to deploy code to production</li>
-            <li>Conducted weekly operational reviews</li>
-            <li>Consumed Splunk and New Relic to debug and gather information</li>
-            <li>Monitored support channels to assist consumers</li>
+            <li>Deployed code to production via Spinnaker</li>
+            <li>Monitored support channels to assist consumers
+              <ul>
+                <li>Utilizied Splunk to debug and gather relative information</li>
+              </ul>
+            </li>
+            <li>Conducted weekly operational reviews
+              <ul>
+                <li>Leveraged New Relic to aggregate usage information</li>
+                <li>Created Dashboards to allow for an understanding of a product at a glance</li>
+                <li>Presented findings and offered solutions for error occurences and performance issues</li>
+              </ul>
+            </li>
           </ul>
         </li>
         <br />
