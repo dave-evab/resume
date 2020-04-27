@@ -12,9 +12,14 @@
     a resource on the products and services of the team.</p>
     <p>Some of the things David has accomplished at Cerner include:
       <ul class="resume-item-list">
-        <li><strong>Interacting with consumers of the core products</strong>
+        <li><strong>Interacting with contributors to the core products</strong>
           <ul>
-            <li>Knowledge transfers</li>
+            <li>Knowledge transfers
+              <ul>
+                <li>Handled common issues with setting up the environment</li>
+                <li>Explained the inner workings of the products</li>
+              </ul>
+            </li>
             <li>Identified and provided solutions for defects
               <ul>
                 <li>React routing issues</li>
@@ -27,16 +32,20 @@
         <li><strong>Acting as the Operations Manager</strong>
           <ul>
             <li>Deployed code to production via Spinnaker</li>
-            <li>Monitored support channels to assist consumers
+            <li>Monitored support channels to assist consumers of the team's services
               <ul>
-                <li>Utilizied Splunk to debug and gather relative information</li>
+                <li>Utilized Splunk to debug and gather relative information</li>
+                <li>Determined the root cause of issues</li>
+                <li>Took corrective actions
+                <li>Escalated issue to appropriate team</li>
+                <li>Provided additional information (such as the reason behind a 500)</li>
               </ul>
             </li>
             <li>Conducted weekly operational reviews
               <ul>
                 <li>Leveraged New Relic to aggregate usage information</li>
                 <li>Created Dashboards to allow for an understanding of a product at a glance</li>
-                <li>Presented findings and offered solutions for error occurences and performance issues</li>
+                <li>Presented findings and offered solutions for error occurrences and performance issues</li>
               </ul>
             </li>
           </ul>
@@ -44,23 +53,41 @@
         <br />
         <li><strong>Acting as the engineer with the most product knowledge</strong>
           <ul>
-            <li>Taught new members of the team about process and said products</li>
-            <li>Got new managers caught up to speed on the state of owned products</li>
             <li>Discussed future designs with executive engineers</li>
+            <li>Documented team processes</li>
+            <li>Trusted with tasks of a larger scope
+              <ul>
+                <li>Created a new workflow independently</li>
+              </ul>
+            </li>
           </ul>
         </li>
         <br />
         <li><strong>Operating on the bleeding edge</strong>
           <ul>
-            <li>Got products compatible with AWS partnership as process was being defined</li>
             <li>Contributed as the first team to move to distroless base images</li>
+            <li>Got products compatible with AWS partnership as process was being defined
+              <ul>
+                <li>Setup new databases using the Relational Database Service (RDS)</li>
+                <li>Setup new load balancers using Elastic Load Balancing (ALB)</li>
+                <li>Created new certificates using the Certificate Manager (ACM)</li>
+                <li>Debugged issues via the AWS CloudFormation Stack</li>
+              </ul>
+            </li>
           </ul>
         </li>
         <br />
         <li><strong>Acting as a mentor</strong>
           <ul>
-            <li>Aided his Project Manager in his personal coding bootcamp</li>
-            <li>Officially for software engineers new to Cerner</li>
+            <li>Aided Project Manager in their personal coding boot camp</li>
+            <li>Developer Academy Mentor
+              <ul>
+                <li>Acted as a resource for new associates</li>
+                <li>Performed code reviews</li>
+                <li>Had bi-weekly meetings to discuss areas of improvement</li>
+                <li>Provided feedback on graduation readiness at the end of every week</li>
+              </ul>
+            </li>
           </ul>
         </li>
       </ul>
@@ -78,7 +105,7 @@
         </ul>
       </li>
       <br />
-      <li>Wrote a powershell script to automatically map specific drives for particular active directory roles</li>
+      <li>Wrote a PowerShell script to automatically map specific drives for particular active directory roles</li>
       <br />
       <li>Interfaced with coworkers to provide assistance</li>
     </ul>
