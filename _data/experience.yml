@@ -1,16 +1,24 @@
 # Jobs
+- company: Blue Apron
+  position: Software Engineer
+  duration: June 2020 &mdash; Present
+  summary: >
+    <p>David is currently a member of a small team with the focus of improving the
+    Consumer Platform. He continues to build his full stack development skills and
+    is focused on becoming the best engineer that he can.
+    </p>
 
 - company: Cerner
   position: Software Engineer
   duration: Feb 2019 &mdash; June 2020
   summary: >
-    <p>This was David's first job as an engineer. He was placed onto a core services and
-    tooling team. This meant that development could happen much more quickly, but also
+    <p>David acted as an essential team member of a core services and tooling team.
+    Being an internal team meant that development could happen much more quickly, but also
     that when standards were changed his team had to be among the first to adapt.</p>
     <p>While David got great initial training, the frequently changing environment put
-    that training to the test. As a result, he is the engineer that people come to when searching for
-    a resource on the products and services of the team.</p>
-    <p>Some of the things David has accomplished at Cerner include:
+    that training to the test. As a result, he was the engineer that people came to when
+    searching for a resource on the products and services owned by the team.</p>
+    <p>Some of the things David accomplished at Cerner include:
       <ul class="resume-item-list">
         <li><strong>Interacting with contributors to the core products</strong>
           <ul>
