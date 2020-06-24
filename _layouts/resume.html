@@ -1,57 +1,48 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>David Williams' Resume</title>
+  
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  
+    <meta name="description" content="Dave's resume webpage.">
+  
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="icon" type="image/x-icon" href="/icon_192.png" />
+    <link rel="shortcut icon" type="image/png" href="/icon_192.png">
+    <link rel="shortcut icon" sizes="192x192" href="/icon_192.png">
+    <link rel="apple-touch-icon" href="/icon_192.png">
+  </head>
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
-
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
-      <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
-
       <header class="page-header">
-
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
         <img src="images/me_c_x400.png" alt="my photo" class="avatar no-print" itemprop="image">
-        {% endif %}
+        <h1 class="header-name" itemprop="name">David Williams</h1>
 
-        <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-
-        <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
-        {% if site.display_header_contact_info == 'true' %}
         <div class="header-contact-info">
-          <p><a id="email-link" href="mailto:{{ site.resume_contact_email }}">{{ site.resume_header_contact_info }}</a></p>
+          <p><a id="email-link" href="mailto:dvdjwllms@gmail.com">&mdash; dvdjwllms@gmail.com &mdash;</a></p>
         </div>
-        {% endif %}
 
         <div class="title-bar no-print">
+          <h2 class="header-title" itemprop="jobTitle">Full-Stack Software Engineer</h2>
 
-          <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
-
-          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-          {% include icon-links.html %}
+          <ul class="icon-links">
+            <li class="icon-link-item"><a href="https://www.linkedin.com/in/dvdjwllms/" class="icon-link" target="_blank" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+          </ul>
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          <p>David is currently employed as a full stack developer at Blue Apron. His team utilizes Ruby on Rails with a React front-end.</p>
         </div>
-
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
-
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Experience</h2>
         </header>
@@ -61,16 +52,10 @@
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
+        </div>
         {% endfor %}
-
       </section>
-      <!-- end Experience -->
-      {% endif %}
 
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
           <h2>Education</h2>
@@ -93,34 +78,8 @@
         </div>
         {% endfor %}
       </section>
-      <!-- end Education -->
-      {% endif %}
 
-
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
       <section class="content-section">
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
-
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Projects -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
         <header class="section-header">
           <h2>Skills</h2>
         </header>
@@ -130,113 +89,23 @@
           <p class="resume-item-copy">{{ skill.description }}</p>
         </div>
         {% endfor %}
-
       </section>
-      <!-- end Skills -->
-      {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
-
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Associations</h2>
-        </header>
-
-        {% for association in site.data.associations %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
-
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Outside Interests</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Interests -->
-      {% endif %}
-
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Links -->
-      {% endif %}
-
-      {% if site.resume_print_social_links %}
-      <!-- begin Print Social Links -->
       <section class="content-section print-only">
-
         <header class="section-header">
           <h2>Social Links</h2>
         </header>
 
         <div class="resume-item">
-        {% include print-social-links.html %}
+          <ul>
+            <li><strong>LinkedIn</strong>: https://www.linkedin.com/in/dvdjwllms/</li>
+          </ul>
         </div>
-
       </section>
-      <!-- end Print Social Links -->
-      {% endif %}
 
       <footer class="page-footer">
         <p class="footer-line">Thanks for reading</p>
       </footer>
-
     </div>
-
   </body>
-
 </html>
