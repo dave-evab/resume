@@ -5,7 +5,22 @@
   summary: >
     <p>David is currently a member of a small team with the focus of improving the
     Consumer Platform. He continues to build his full stack development skills and
-    is focused on becoming the best engineer that he can.
+    was able to onboard with the company at a higher than average rate.
+    </p>
+    <p>Some of the things David has accomplished at Blueapron include:
+      <ul class="resume-item-list">
+        <li><strong>Impactful contributions</strong>
+          <ul>
+            <li>Unified two user experiences into one
+              <ul>
+                <li>First project at the company</li>
+                <li>Reduced the size of the frontend by over 14k lines of code</li>
+                <li>Simplified future development and testing workflows</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </p>
 
 - company: Cerner
