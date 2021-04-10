@@ -14,10 +14,38 @@
             <li>Unified two user experiences into one
               <ul>
                 <li>First project at the company</li>
-                <li>Reduced the size of the frontend by over 14k lines of code</li>
+                <li>Reduced the size of the front-end by over 14k lines of code</li>
                 <li>Simplified future development and testing workflows</li>
               </ul>
             </li>
+            <li>Integrated address verification
+              <ul>
+                <li>Long desired ask with a multi-team history</li>
+                <li>Finally got it over the finish line</li>
+                <li>Reduced cost incurred from shipping partners for invalid addresses</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <br />
+        <li><strong>Acted as a bridge for front-end and back-end teams</strong>
+          <ul>
+            <li>Operated as a full-stack developer, taking tasks from both teams</li>
+            <li>Quickly became acquainted with a large network</li>
+            <li>Answered questions requiring knowledge from respective team
+              <ul>
+                <li>E.g. Help a back-end developer make a front-end change</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <br />
+        <li><strong>Experimented with external solutions</strong>
+          <ul>
+            <li>Quickly integrated functional proof-of-concepts</li>
+            <li>Extensively tested company specific use cases</li>
+            <li>Attended meetings with external providers asking important questions</li>
+            <li>Provided feedback on viability</li>
           </ul>
         </li>
       </ul>
